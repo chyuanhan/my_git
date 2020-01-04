@@ -46,6 +46,11 @@
 
 			div.grid3 {
 				background-color: blue;
+				position:absolute;
+				animation-name: oxxo;
+				animation-duration:2s;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
 			}
 
 			div.grid4 {
@@ -93,6 +98,15 @@
 			 box-shadow: 5px 5px 5px gray;
 			 font-size: 20px;
 			 display: inline-block;
+			}
+			
+			@keyframes oxxo{
+			 0%{
+				left:0;
+			 }
+			 100%{
+				left:200px;
+			 }
 			}
 		</style>
 	</head>
